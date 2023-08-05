@@ -1,0 +1,104 @@
+:root{
+--Violet: hsl(257, 40%, 49%);
+--SoftMagenta: hsl(300, 69%, 71%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&family=Poppins:wght@500&display=swap');
+
+/* ### Headings
+
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 400, 600
+
+### Body
+
+- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- Weights: 400 */
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+.hero{
+    background-color: var(--Violet);
+    padding: 20px;
+    background-image: url(./images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 50px;
+}
+
+.imgcontent{
+    width: 80%;
+}
+
+
+.imgcontent{
+    width: auto;
+    height: auto;
+}
+
+
+
+.details{
+    margin-top: 60px;
+    padding: 100px;
+    text-align: justify;
+}
+
+
+
+.heading{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 2rem;
+    color: white;
+    font-weight: 600;
+}
+
+
+.summary{
+    font-weight: 400;
+    color: white;
+    opacity: 0.8;
+
+}
+
+button{
+    padding: 10px;
+    width: 150px;
+    border:1px solid white;
+    border-radius: 40px;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--Violet);
+    font-weight: 400;
+    font-size: 1.2rem;
+    box-shadow: 5px 3px 5px hsl(258, 49%, 19%);
+}
+
+.icon{
+    margin-top: 150px;
+    float: right;
+}
+
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid white;
+  }
+
